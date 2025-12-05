@@ -9,12 +9,12 @@ void main(){
   do{
     print("$no. Hello World!!");
     no++;
-  }while(no>10);
+  } while(no>10);
 
 
 }
 
-/// 1. Prime no
+/// 1. Prime no (done)
 /// 2. Armstrong no.
 /// 3. Fibonacci series (0, 1, 1, 2, 3, 5, 8, 13, 21...n)
 /// 4. Fibonacci series (0, 1, 1, 2, 3, 5, 8, 13, 21...<=no)
