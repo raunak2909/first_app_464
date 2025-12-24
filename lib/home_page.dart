@@ -2,6 +2,13 @@ import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget{
 
+  void logoutBtnOnTap(){
+
+
+
+
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,14 +27,23 @@ class HomePage extends StatelessWidget{
         ),
         foregroundColor: Colors.white,
         actions: [
-          IconButton(onPressed: (){}, icon: Icon(Icons.logout,))
+          IconButton(onPressed: (){
+
+          }, icon: Icon(Icons.logout,))
         ],
         backgroundColor: Colors.orange,
         title: Text("Home", style: TextStyle(),),
       ),
 
       floatingActionButton: FloatingActionButton(onPressed: (){
-
+        ///
+        ///
+        ///
+        ///
+        ///
+        ///
+        ///
+        ///
       }, child: Text("+", style: TextStyle(fontSize: 21),),),
     );
   }
